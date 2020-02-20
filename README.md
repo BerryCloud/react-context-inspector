@@ -1,3 +1,8 @@
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/BerryCloud/react-context-inspector/Continuous%20integration)](https://github.com/BerryCloud/react-context-inspector/actions)
+[![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/BerryCloud/react-context-inspector)](https://codeclimate.com/github/BerryCloud/react-context-inspector)
+[![Code Climate issues](https://img.shields.io/codeclimate/issues/BerryCloud/react-context-inspector)](https://codeclimate.com/github/BerryCloud/react-context-inspector/issues)
+[![Code Climate technical debt](https://img.shields.io/codeclimate/tech-debt/BerryCloud/react-context-inspector)](https://codeclimate.com/github/BerryCloud/react-context-inspector)
+
 # react-context-inspector
 
 Tiny tool that helps you when testing your context in complex test scenarios. Compatible with react and react-native. Very helpful with Enzyme.js.
