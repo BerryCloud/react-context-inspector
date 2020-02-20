@@ -4,6 +4,9 @@
   "description": "Test react context with easy, good to combine with enzyme",
   "main": "index.js",
   "scripts": {
+    "build": "npm run clean && babel src/index.js -o index.js",
+    "clean": "rimraf index.js",
+    "prepack": "npm test && npm run build",
     "test": "jest"
   },
   "repository": {
@@ -24,7 +27,7 @@
   },
   "homepage": "https://github.com/BerryCloud/react-context-inspector#readme",
   "files": [
-    "lib",
+    "index.js",
     "LICENSE",
     "README.md"
   ],
@@ -46,6 +49,7 @@
     "jest-runner-standard": "0.0.13",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "rimraf": "^3.0.2",
     "standard": "^14.3.1"
   },
   "standard": {

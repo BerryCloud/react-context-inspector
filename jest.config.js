@@ -4,7 +4,12 @@ module.exports = {
       displayName: 'linter',
       runner: 'jest-runner-standard',
       testMatch: ['<rootDir>/**/*.{js,jsx}'],
-      testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/lib/']
+      testPathIgnorePatterns: [
+        '<rootDir>/coverage',
+        '<rootDir>/index.js',
+        '<rootDir>/lib/',
+        '<rootDir>/node_modules/'
+      ]
     },
     {
       displayName: 'project',

@@ -1,6 +1,6 @@
 # react-context-inspector
 
-Tiny tool that helps you when testing your context in complex test scenarios.
+Tiny tool that helps you when testing your context in complex test scenarios. Compatible with react and react-native. Very helpful with Enzyme.js.
 
 ## Install
 
