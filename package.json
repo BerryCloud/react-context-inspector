@@ -1,6 +1,6 @@
 {
   "name": "react-context-inspector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Test react context with easy, good to combine with enzyme",
   "main": "index.js",
   "scripts": {
