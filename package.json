@@ -4,7 +4,7 @@
   "description": "Test react context with easy, good to combine with enzyme",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,42 @@
   "bugs": {
     "url": "https://github.com/BerryCloud/react-context-inspector/issues"
   },
-  "homepage": "https://github.com/BerryCloud/react-context-inspector#readme"
+  "homepage": "https://github.com/BerryCloud/react-context-inspector#readme",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "react": ">16.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/plugin-transform-regenerator": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^25.1.0",
+    "jest-runner-standard": "0.0.13",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "standard": "^14.3.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ],
+    "ignore": [
+      "lib/**/*"
+    ],
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.8.4"
+  }
 }
